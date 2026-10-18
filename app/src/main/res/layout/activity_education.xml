@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#101615"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:id="@+id/EducationAcvity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SugarCare"
+            android:textColor="#8CE6B5"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Diabetes Education"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Understand diabetes and learn how healthy choices can help reduce your risk."
+            android:textColor="#B8C8C1"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="#1C2925"
+            android:padding="18dp"
+            android:text="What is diabetes?\n\nDiabetes is a chronic condition in which blood glucose levels are too high. This can happen when the body does not produce enough insulin or cannot use insulin effectively."
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:lineSpacingExtra="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="#1C2925"
+            android:padding="18dp"
+            android:text="Common types\n\nType 1: The body produces little or no insulin.\n\nType 2: The body does not use insulin effectively. Lifestyle and genetic factors can contribute.\n\nGestational: Diabetes diagnosed during pregnancy."
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:lineSpacingExtra="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="#1C2925"
+            android:padding="18dp"
+            android:text="Possible warning signs\n\n• Increased thirst\n• Frequent urination\n• Unusual tiredness\n• Blurred vision\n• Unexplained weight loss\n\nSome people, especially those with type 2 diabetes, may have no noticeable symptoms."
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:lineSpacingExtra="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="#1C2925"
+            android:padding="18dp"
+            android:text="Prevention and healthy habits\n\n• Eat a balanced diet with vegetables, fruits, and whole grains.\n• Stay physically active regularly.\n• Aim for a healthy weight.\n• Avoid tobacco.\n• Get recommended health check-ups, especially if you have risk factors."
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:lineSpacingExtra="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:background="#253B32"
+            android:padding="18dp"
+            android:text="Remember\n\nThese symptoms do not confirm diabetes. A healthcare professional can recommend appropriate blood glucose testing and interpret the results."
+            android:textColor="#8CE6B5"
+            android:textSize="15sp"
+            android:lineSpacingExtra="5dp" />
+
+    </LinearLayout>
+</ScrollView>
